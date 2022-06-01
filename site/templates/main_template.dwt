@@ -1,0 +1,57 @@
+<!doctype html>
+<html>
+	<!-- TemplateBeginEditable name="head" -->
+	<head>
+		<meta charset="UTF-8">
+		<title>Home</title>
+		<link href="../css/style.css" rel="stylesheet" type="text/css">
+		<link rel="stylesheet" href="https://use.typekit.net/tui6jfw.css">
+	</head>
+	<!-- TemplateEndEditable -->
+	
+	<body>
+		<header></header>
+		<nav>
+			<img src="../media/logo_new.png" width="219" height="30" alt=""/>
+			<ul>
+				<li><a href="../html/index.html">HOME</a></li>
+				<li><a href="../html/about.html">ABOUT</a></li>
+				<li><a href="../html/faq.html">FAQ</a></li>
+				<li><a href="../html/calendar.html">CALENDAR</a></li>
+				<li><a href="../html/contact.html">CONTACT</a></li>
+			</ul>
+			<button type="button"><a href="../html/register.html">&nbsp;REGISTER &nbsp;NOW&nbsp;</a></button>
+		</nav>
+		<!-- TemplateBeginEditable name="main" -->
+		<main>
+			
+		</main>
+		<!-- TemplateEndEditable -->
+		<footer>
+			<div id="footer_contact">
+				<h4>CONTACT US</h4>
+				<p>Email : CoxMillACTSATStudyClub@gmail.com</p>
+			   <p>Phone Number : (704) 485-2241</p>
+			</div>
+			<div id="footer_links">
+				<h4>USEFUL LINKS</h4>
+				<p><a href="https://www.act.org/content/act/en/products-and-services/the-act/test-preparation/free-act-test-prep.html" target="_blank">Register for the ACT today!</a></p>
+				<p><a href="https://satsuite.collegeboard.org/sat" target="_blank">Register for the SAT today!</a></p>
+				<p><a href="https://www.collegeboard.org/" target="_blank">Collegeboard</a></p>
+				<p><a href="https://bigfuture.collegeboard.org/" target="_blank">Collegeboard’s Big Future Website</a></p>
+				<p><a href="https://nces.ed.gov/collegenavigator/" target="_blank">College Navigator</a></p>
+				<p><a href="https://www.khanacademy.org/test-prep/sat" target="_blank">Khan Academy</a></p>
+    	</div>
+			<div id="footer_attribution">
+				<h4>WEBSITE DESIGNED BY</h4>
+				<p>Diego Branciforte</p>
+				<p>Camden Lewis</p>
+				<p>Luke Harris</p>
+				<p>Troy Kimani</p>
+			</div>
+			<div id="footer_copyright">
+				<p>&nbsp;&nbsp;&nbsp;Copyright © 2022 Cox Mill ACT/SAT Study Club</p>
+			</div>
+		</footer>
+	</body>
+</html>

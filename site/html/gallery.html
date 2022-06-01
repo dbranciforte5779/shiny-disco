@@ -1,0 +1,124 @@
+<!doctype html>
+<html><!-- InstanceBegin template="/Templates/main_template.dwt" codeOutsideHTMLIsLocked="false" -->
+	<!-- InstanceBeginEditable name="head" -->
+	<head>
+		<meta charset="UTF-8">
+		<title>Gallery</title>
+		<link href="../css/gallery.css" rel="stylesheet" type="text/css">
+		<link rel="stylesheet" href="https://use.typekit.net/tui6jfw.css">
+	</head>
+	<!-- InstanceEndEditable -->
+	
+	<body>
+		<header></header>
+		<nav>
+			<img src="../media/logo_new.png" width="219" height="30" alt=""/>
+			<ul>
+				<li><a href="index.html">HOME</a></li>
+				<li><a href="about.html">ABOUT</a></li>
+				<li><a href="faq.html">FAQ</a></li>
+				<li><a href="calendar.html">CALENDAR</a></li>
+				<li><a href="contact.html">CONTACT</a></li>
+			</ul>
+			<button type="button"><a href="register.html">&nbsp;REGISTER &nbsp;NOW&nbsp;</a></button>
+		</nav>
+		<!-- InstanceBeginEditable name="main" -->
+		<main>
+			
+<!-- Slideshow container -->
+ <div class="slideshow">
+<div class="slideshow-container">
+
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 3</div>
+    <img src="../media/gallery4.jpeg" alt="People Studying" width="700px" height="700px" class="centerimg">
+    <div class="text">Caption Text</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 3</div>
+    <img src="../media/about1.png"  alt="Studying" height="700px" width="700px" class="centerimg">
+<div class="text">Caption Two</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 3</div>
+      <img src="../media/about2.jpg" class="centerimg" alt="Group Studying" height="700px" width="700px">
+<div class="text">Caption Three</div>
+  </div>
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<!-- The dots/circles -->
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+</div>
+</div>
+<script> 
+let slideIndex = 1;
+showSlides(slideIndex);
+
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+}
+</script>
+
+		</main>
+		<!-- InstanceEndEditable -->
+		<footer>
+			<div id="footer_contact">
+				<h4>CONTACT US</h4>
+				<p>Email : CoxMillACTSATStudyClub@gmail.com</p>
+			   <p>Phone Number : (704) 485-2241</p>
+			</div>
+			<div id="footer_links">
+				<h4>USEFUL LINKS</h4>
+				<p><a href="https://www.act.org/content/act/en/products-and-services/the-act/test-preparation/free-act-test-prep.html" target="_blank">Register for the ACT today!</a></p>
+				<p><a href="https://satsuite.collegeboard.org/sat" target="_blank">Register for the SAT today!</a></p>
+				<p><a href="https://www.collegeboard.org/" target="_blank">Collegeboard</a></p>
+				<p><a href="https://bigfuture.collegeboard.org/" target="_blank">Collegeboard’s Big Future Website</a></p>
+				<p><a href="https://nces.ed.gov/collegenavigator/" target="_blank">College Navigator</a></p>
+				<p><a href="https://www.khanacademy.org/test-prep/sat" target="_blank">Khan Academy</a></p>
+    	</div>
+			<div id="footer_attribution">
+				<h4>WEBSITE DESIGNED BY</h4>
+				<p>Diego Branciforte</p>
+				<p>Camden Lewis</p>
+				<p>Luke Harris</p>
+				<p>Troy Kimani</p>
+			</div>
+			<div id="footer_copyright">
+				<p>&nbsp;&nbsp;&nbsp;Copyright © 2022 Cox Mill ACT/SAT Study Club</p>
+			</div>
+		</footer>
+	</body>
+<!-- InstanceEnd --></html>
